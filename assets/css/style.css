@@ -1,14 +1,4 @@
 body  {
-    font-family: 'Six Caps', sans-serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Averia Serif Libre', cursive;
-    font-family: 'Wire One', sans-serif;
-
-    font-family: 'Cormorant SC', serif;
-    font-family: 'Cinzel', serif;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Unna', serif;
-    font-family: 'Yeseva One', cursive;
     font-family: 'Dorsa', sans-serif;
     text-align: center;
     background: #ffffff;
@@ -25,14 +15,13 @@ body  {
     opacity: 0;
 }
 
-.footer {
-    font-family: 'Wire One', sans-serif;
+a {
     width: 100%;
     height: 50px;
     padding-top: 7px;
     padding-bottom: 20px;
     color: #000000;
-    font-size: 30px;
+    font-size: 50px;
     opacity: 0;
 }
 
@@ -49,52 +38,97 @@ a:hover{
 
 p   {
     color: #000000;
-    font-family: 'Nanum Myeongjo', serif;
-    margin-left: 100px;
+    font-family: 'Old Standard TT', serif;
     line-height: 1.5;
     text-align: left;
     opacity: 0;
 }
 
 .auth-image {
-    margin-right: 100px;
     opacity: 0;
 }
 
-
-
-
 .work {
     position: relative;
-    float: left;
-    width: 100%;
-    margin: 20px 0 25px;
-    overflow: auto;
+    opacity: 0;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
+.work img {
+    width: 50%;
+    height: 50%;
     border-style: solid;
-    border-color: #777;
+    border-color: #660000;
     border-width: 3px;
-    opacity: 0.8;
+    margin: 30px;
+    opacity: 0;
   }
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     width: 25%;
     padding: 15px;
     margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #660000;
     text-align: center;
-    background: #ffffff;
-    border-bottom: 0;
+    font-size: 30px;
+    color: #000000;
+    opacity: 0;
   }
+
+  h3:hover  {
+    color: #660000;
+  }
+
+
+  /* contact page */
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 0;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  
+#name,
+#email,
+#message    {
+    background: #ececec;
+}
+
+#name:hover {
+    background: #ffffff;
+}
+  
+
 
