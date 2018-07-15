@@ -10,102 +10,61 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="assets/script/lodash.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <title>Colin Larkin | Write • Design • Develop</title>
 </head>
 <body>
-
-        <div class="wrapper">
-        
-        <div class="container">
-                <div class="row">
-        
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <div id="about-header">CONNECT</div>
-                    </div>
-        
-            </div>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div id="page-headers">LET'S CONNECT</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="connect">DIRECT</div>
+          <form id="contact-form">
+            <ul>
+              <li>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name . . . " required="required">
+              </li>
+              <li>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email . . . " required="required">
+              </li>
+              <li>
+                <label for="message"></label>
+                <textarea id="message" name="message" placeholder="Message. . . " required="required"></textarea>
+              </li>  
+            </ul>
+            <input type="submit" class="submit">
+          </form> 
+      </div>
+      <div class="col-sm-6">     
+        <div class="connect">SOCIAL</div>
+          <div id="social">
+            <a href="https://github.com/cjal920" target="_blank"><img src="assets/images/if_github_344124.png" class="social" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/colin-larkin-8883775" target="_blank"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/9615720/colin-larkin" target="_blank"><img src="assets/images/stackoverflow-2-128.png" class="social" alt="Stack Overflow"></a>
+          </div> 
         </div>
-
-  
-        <div id="main-container" class="container">
-          <section class="main-section">
-            
-            <form id="contact-form">
-              <ul>
-
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-6"><h1>Contact</h1>
-                        <li>
-                            <label for="name"></label>
-                            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
-                          </li>
-
-                          <li>
-                              <label for="email"></label>
-                              <input type="email" id="email" name="email" placeholder="Your Email" required="required">
-                            </li>
-
-                            <li>
-                                <label for="message"></label>
-                                <textarea id="message" name="message" placeholder="Your Message" required="required"></textarea>
-                              </li>   
-
-                          </div>
-                  
-                          <div class="col-sm-6">     
-
-                              <div id="sidebar">
-                                  <h2>Social</h2>
-                                  <a href="https://github.com/cjal920" target="_blank"><img src="assets/images/if_github_344124.png" class="social" alt="Github"></a>
-                                  <a href="https://www.linkedin.com/in/colin-larkin-8883775" target="_blank"><img src="assets/images/if_square-linkedin_317725.png" class="social" alt="LinkedIn"></a>
-                                  <a href="https://stackoverflow.com/users/9615720/colin-larkin" target="_blank"><img src="assets/images/stackoverflow-2-128.png" class="social" alt="Stack Overflow"></a>
-                                </div> 
-                    </div>
-                  </div>
-                </div>
-  
-              
-
-
-
-              </ul>
-              <input type="submit">
-            </form>
-          </section>
-        </div>
-
-
-  
+      </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4" id="home-index"><a href="index.html">HOME</a></div>
+      <div class="col-sm-4 col-md-4 col-lg-4" id="about-index"><a href="about.html">ABOUT</a></div>
+        <div class="col-sm-4 col-md-4 col-lg-4" id="portfolio-index"><a href="portfolio.html">PORTFOLIO</a></div>
+  </div>
+</div>
         
-        </div>
+<script type="text/javascript" src="assets/javascript/logic.js"></script>
         
-        <div class="container">
-                <div class="row">
-
-            <div class="col-sm-4 col-md-4 col-lg-4" id="home-index"><a href="index.html">HOME</a></div>
-            <div class="col-sm-4 col-md-4 col-lg-4" id="about-index"><a href="about.html">ABOUT</a></div>
-            <div class="col-sm-4 col-md-4 col-lg-4" id="portfolio-index"><a href="portfolio.html">PORTFOLIO</a></div>
-
-        
-                </div>
-            </div>
-        
-   
-        
-           
-        
-
-        
-        <script type="text/javascript" src="assets/javascript/logic.js"></script>
-        
-
-
-    </body>
-    </html>
+</body>
+</html>
     
 

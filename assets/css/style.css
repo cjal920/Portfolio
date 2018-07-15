@@ -5,12 +5,18 @@ body  {
 }
 
 .wrapper    {
-    min-height: calc(100vh - 10px);
+    min-height: calc(90vh - 10px);
 }
 
-#name-header,
-#about-header   {
+#name-header  {
+    font-size: 200px;
+    color: #660000;
+    opacity: 0;
+}
+
+#page-headers  {
     font-size: 100px;
+    padding: 20px;
     color: #660000;
     opacity: 0;
 }
@@ -40,18 +46,20 @@ p   {
     color: #000000;
     font-family: 'Old Standard TT', serif;
     line-height: 1.5;
+    padding: 40px;
     text-align: left;
     opacity: 0;
 }
 
 .auth-image {
     opacity: 0;
+    padding: 40px;
 }
 
 .work {
     position: relative;
     opacity: 0;
-  }
+}
   
 .work img {
     width: 50%;
@@ -59,75 +67,90 @@ p   {
     border-style: solid;
     border-color: #660000;
     border-width: 3px;
-    margin: 30px;
+    margin: 10px;
     opacity: 0;
-  }
+}
   
-  .work h3 {
+.work h3 {
     position: absolute;
     bottom: 100px;
     width: 25%;
-    padding: 15px;
     margin-bottom: 0;
     text-align: center;
     font-size: 30px;
     color: #000000;
     opacity: 0;
-  }
+}
 
-  h3:hover  {
+h3:hover  {
     color: #660000;
-  }
+}
 
 
   /* contact page */
 
 #contact-form ul {
     margin-bottom: 20px;
-  }
+
+}
   
-  #contact-form li {
+#contact-form li {
     margin-bottom: 10px;
-  }
+}
+
+#contact-form {
+    opacity: 0;
+}
   
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
+label,
+input[type=text],
+input[type=email],
+textarea {
     display: block;
     width: 100%;
-  }
+    border-radius: 5px;
+}
   
-  input[type=text],
-  input[type=email],
-  textarea {
+input[type=text],
+input[type=email],
+textarea {
     height: 35px;
-    padding: 0 10px;
+    padding: 20px;
     font-size: 14px;
     border: 0;
-  }
+}
   
-  textarea {
+textarea {
     height: 200px;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #e9e9e9;
     border: 0 none;
-  }
+    border-radius: 5px;
+}
   
 #name,
 #email,
 #message    {
-    background: #ececec;
+    font-size: 20px;
+    background: #fdfdfd;
 }
 
-#name:hover {
-    background: #ffffff;
+#name:hover,
+#email:hover,
+#message:hover {
+    background: #e9e9e9;
+}
+
+.connect  {
+    font-size: 50px;
+    color: #660000;
+    opacity: 0;
 }
   
 
