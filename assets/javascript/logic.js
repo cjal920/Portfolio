@@ -1,5 +1,5 @@
 $(document).ready(function()    {
-    $("#name-header").animate({opacity: "1", marginTop: "+=200px"}, 3000);
+    $("#name-header").animate({opacity: "1", marginTop: "+=175px"}, 3000);
     $("a").animate({opacity: "1"}, 4000);
     $("#page-headers").animate({opacity: "1"}, 2000);
     $("p").animate({opacity: "1"}, 2000);
