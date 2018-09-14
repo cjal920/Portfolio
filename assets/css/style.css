@@ -38,8 +38,7 @@ a:hover{
 
 #port-img:hover    {
     border: 1px solid;
-    padding: 1px;
-    box-shadow: 2px 2px;
+    box-shadow: 1px 1px;
 }
 
 .social {
@@ -71,8 +70,8 @@ p   {
     width: 50%;
     height: 50%;
     border-style: solid;
-    border-color: #660000;
-    border-width: 3px;
+    color: #707070
+    border-width: 1px;
     margin: 10px;
     opacity: 0;
 }
