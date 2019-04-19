@@ -9,6 +9,7 @@ $(document).ready(function()    {
     $(".connect").animate({opacity: "1"}, 2000);
     $("img").animate({opacity: "1"}, 2000);
     $("#contact-form").animate({opacity: "1"}, 2000);
+    $("#under-construction").delay(1000).fadeIn(1000);
 });
 
 
