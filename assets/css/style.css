@@ -10,8 +10,8 @@ body  {
 
 #name-header  {
     font-family: 'Dorsa', sans-serif;
-    font-size: 150px;
-    color: #7c7c7c;
+    font-size: 175px;
+    color: #555555;
     opacity: 0;
 }
 
@@ -26,13 +26,13 @@ body  {
     font-family: 'Dorsa', sans-serif;
     font-size: 100px;
     padding: 20px;
-    color: #7c7c7c;
+    color: #555555;
     opacity: 0;
 }
 
 a {
     font-family: 'Dorsa', sans-serif;
-    color: #7c7c7c;
+    color: #555555;
     width: 100%;
     height: 50px;
     padding-top: 7px;
@@ -83,7 +83,7 @@ p   {
     width: 50%;
     height: 50%;
     border-style: solid;
-    color: #707070;
+    color: #555555;
     border-width: 1px;
     margin: 10px;
     opacity: 0;
@@ -130,6 +130,7 @@ h3  {
 
 .novel-box:hover {
     background-color: #660000;
+    box-shadow: 10px 10px 5px #acacac;
 }
 
 .essay-box {
@@ -145,6 +146,7 @@ h3  {
 
 .essay-box:hover {
     background-color: #5f5100;
+    box-shadow: 10px 10px 5px #acacac;
 }
 
 .marketing-box {
@@ -160,6 +162,7 @@ h3  {
 
 .marketing-box:hover {
     background-color: #0e5200;
+    box-shadow: 10px 10px 5px #acacac;
 }
 
 .web-box {
@@ -175,6 +178,7 @@ h3  {
 
 .web-box:hover {
     background-color: #002a69;
+    box-shadow: 10px 10px 5px #acacac;
 }
 
 
